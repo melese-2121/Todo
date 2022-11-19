@@ -1,0 +1,82 @@
+.todo-app{
+    margin: 50px 25%;
+    border: 2px solid rgb(245, 15, 245);
+    padding: 20px 20px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color:rgb(112, 25, 195);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.todo{
+    padding-left: 20px;
+    font-style:oblique;
+    font-size: 20px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+
+}
+.new-todo{
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-style: oblique;
+    color: rgb(19, 224, 19);
+}
+label{
+    margin-left: 15%;
+}
+.submit{
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px 20%;
+    font-size: 18px;
+    background-color: rgb(37, 39, 39);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-area{
+    font-size: 20px;
+    font-weight: bold;
+}
+.see-more{
+    margin-left: 65px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: node;
+}
+
+.add-todo{
+    margin-left: 15%;
+    margin-top: 50px;
+    padding: 2px 30%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(14, 10, 10);
+    border-radius: 20px;
+}
+.container{
+    background-color: rgb(120, 117, 117)
+}
+
+.copyRight{
+    text-align: center;
+    font-style: italic;
+    margin-top: 40px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
